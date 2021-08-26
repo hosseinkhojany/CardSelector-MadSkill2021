@@ -1,0 +1,12 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+        maven { url "https://maven.xyz.com" }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+}
+rootProject.name = "My Application"
+include ':app'
